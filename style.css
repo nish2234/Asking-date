@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 70vw;
+    height: 50vh;
+    background-color: rgba(217, 118, 134, 0.495);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+img{
+    height: 30vh;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 20px;   
+    width: 60vw;
+    
+   
+    
+    
+}
+
+.btn1{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(93, 236, 98);
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-left: calc(32%);
+    
+
+    
+}
+
+.btn2{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(236, 80, 80);
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    transition: .5s;
+    position: absolute;
+}
+
+@media only screen and (max-width : 600px) {
+    .btn1{
+        margin-left: 4%;
+        width: 100px;
+    }
+    .btn2{
+        width: 100px;
+    }
+}
+@media only screen and (min-width : 768px) {
+    .btn1{
+        margin-left: 15%;
+        
+    }
+}
+@media only screen and (min-width : 900px) {
+    .btn1{
+        margin-left: 25%;
+        
+    }
+}
+@media only screen and (min-width : 1200px) {
+    .btn1{
+        margin-left: 32%;
+        
+    }
+}
